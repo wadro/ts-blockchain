@@ -1,9 +1,21 @@
 console.log("run index.ts");
+
+interface Human {
+  name: string;
+  age: number;
+}
+const person = {
+  name: "jj",
+  age: 1
+};
+
 const name = "kjh",
   age = 26;
-const sayHi = (name: string, age:number):(void) => {
-  console.log(`hi, ${name}, are you ${age}?`);
+
+const sayHi = (person:Human):string => {
+  return `hi, ${name}, are you ${age}?`;
 }
-sayHi("gg",2);
+console.log(sayHi(person));
+console.log("watch");
 
 export{};
