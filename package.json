@@ -1,0 +1,13 @@
+{
+  "name": "typeblock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  }
+}
